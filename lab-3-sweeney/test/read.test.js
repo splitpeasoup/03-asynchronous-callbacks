@@ -1,6 +1,6 @@
 'use strict';
 
-const Reader = require('./read.js').Readthreefiles;
+const Reader = require('../lib/read.js').Readthreefiles;
 
 describe('Test with for an empty array', () => {
   let expected = undefined;
